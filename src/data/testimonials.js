@@ -1,0 +1,38 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: "James Mutua",
+    location: "Nairobi, Kenya",
+    rating: 5,
+    text: "Momentum Auto Spares has been my go-to shop for over 3 years. Their brake pads are top quality and the prices beat everywhere else in town.",
+    avatar: "JM",
+    vehicle: "Toyota Corolla 2018",
+  },
+  {
+    id: 2,
+    name: "Grace Wanjiru",
+    location: "Mombasa, Kenya",
+    rating: 5,
+    text: "Ordered online and the parts arrived the next day. Excellent packaging and exactly what my mechanic needed. Will definitely order again!",
+    avatar: "GW",
+    vehicle: "Nissan Note 2020",
+  },
+  {
+    id: 3,
+    name: "David Ochieng",
+    location: "Kisumu, Kenya",
+    rating: 4,
+    text: "Very knowledgeable staff. They helped me find the right suspension parts for my truck even though my model was older. Highly recommend.",
+    avatar: "DO",
+    vehicle: "Toyota Hilux 2015",
+  },
+  {
+    id: 4,
+    name: "Sarah Kamau",
+    location: "Nakuru, Kenya",
+    rating: 5,
+    text: "Best prices I've found for genuine parts. The website makes it easy to check compatibility before buying. Super convenient!",
+    avatar: "SK",
+    vehicle: "Honda Fit 2019",
+  },
+];
