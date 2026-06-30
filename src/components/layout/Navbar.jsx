@@ -8,6 +8,7 @@ import {
 import { categories } from "../../data/categories";
 import { useWishlist } from "../../context/WishlistContext";
 import { useCart } from "../../context/CartContext";
+import { storePhone, storePhoneTel } from "../../data/business";
 
 const navLinks = [
   { label: "Hot Deals",    to: "/products?sort=sale",          icon: Flame },
@@ -60,8 +61,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-1">
             <Phone size={11} className="text-red-400" />
-            <a href="tel:+254712345678" className="hover:text-white transition-colors">
-              +254 712 345 678
+            <a href={`tel:${storePhoneTel}`} className="hover:text-white transition-colors">
+              {storePhone}
             </a>
             <span className="mx-2 text-gray-600">|</span>
             <span>Mon–Sat: 8am – 6pm</span>

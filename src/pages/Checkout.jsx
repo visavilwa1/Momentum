@@ -232,7 +232,7 @@ export default function Checkout() {
                       value={form.phone}
                       onChange={(e) => setForm((p) => ({ ...p, phone: e.target.value }))}
                       className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500"
-                      placeholder="0712 345 678"
+                      placeholder="0720 294 854"
                     />
                   </div>
                   <div className="sm:col-span-2">

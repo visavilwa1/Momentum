@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Wrench } from "lucide-react";
-import { storeAddress } from "../../data/business";
+import { storeAddress, storePhone, storePhoneTel } from "../../data/business";
 
 const FacebookIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
@@ -137,10 +137,10 @@ export default function Footer() {
               <li className="flex items-center gap-3 text-sm">
                 <Phone size={15} className="text-red-500 flex-shrink-0" />
                 <a
-                  href="tel:+254712345678"
+                  href={`tel:${storePhoneTel}`}
                   className="hover:text-white transition-colors"
                 >
-                  +254 712 345 678
+                  {storePhone}
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sm">

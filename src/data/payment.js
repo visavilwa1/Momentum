@@ -14,5 +14,4 @@ export const mpesaSteps = [
   "Enter your M-Pesa PIN to confirm",
 ];
 
-export const supportPhone = "+254712345678";
-export const supportWhatsApp = "254712345678";
+export { storePhoneTel as supportPhone, storeWhatsApp as supportWhatsApp } from "./business";

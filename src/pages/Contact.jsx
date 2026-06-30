@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import Button from "../components/ui/Button";
-import { storeAddress, storeMapsUrl } from "../data/business";
+import { storeAddress, storeMapsUrl, storePhone, storePhoneTel } from "../data/business";
 
 const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+254 712 345 678",
-    link: "tel:+254712345678",
+    value: storePhone,
+    link: `tel:${storePhoneTel}`,
   },
   {
     icon: Mail,
